@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    background-image: url("/static/images/background.jpg"); /* ใช้เส้นทางภาพพื้นหลังแบบเต็ม */
+    background-size: cover; /* ปรับขนาดภาพพื้นหลังให้ครอบคลุมทั้งหน้า */
+    background-repeat: no-repeat; /* ไม่ให้ภาพพื้นหลังทำซ้ำ */
+    background-attachment: fixed; /* ให้ภาพพื้นหลังเลื่อนไปพร้อมกับการเลื่อนหน้า */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* เพิ่มพื้นหลังสีขาวแบบโปร่งใสเพื่อให้เห็นข้อความชัดเจน */
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* เพิ่มพื้นหลังสีขาวแบบโปร่งใส */
+}
+
+.list-group-item {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9); /* เพิ่มพื้นหลังสีขาวแบบโปร่งใส */
+}
+
+.pokemon-img {
+    max-width: 200px;  /* ขยายขนาดรูปภาพในหน้าแรก */
+    height: auto;
+}
+
+.pokemon-detail-img {
+    max-width: 300px;  /* ขยายขนาดรูปภาพในหน้ารายละเอียด */
+    height: auto;
+}
+
+.type-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
